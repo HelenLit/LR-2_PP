@@ -82,6 +82,7 @@ public class CustomerMain {
         for (Customer cust:  result) {
             System.out.println("\nПокупець №" + count++ + cust);
         }
+
         result = indebtednessList(customers);
         System.out.println("Кількість покупців, які мають заборгованість: " + result.length);
         System.out.println("Список покупців, які мають заборгованість: ");
